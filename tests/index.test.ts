@@ -9,7 +9,7 @@ import {
   ExecutionContext,
   ProgressContext,
   CompletionContext,
-} from './index.js';
+} from '../src/index.js';
 import { AbortError } from 'p-retry';
 
 describe('BatchHandler', () => {
